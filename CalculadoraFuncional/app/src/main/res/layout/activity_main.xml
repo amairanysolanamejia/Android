@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1">
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:layout_weight="0"
+                  android:text="Ola K Ase"
+                  android:id="@+id/etIngreso"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1">
+        <Button
+                android:id="@+id/botoncito7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="7"
+                android:layout_weight="1"
+                android:background="@color/azul"/>
+        <Button
+                android:id="@+id/botoncito8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="8"
+                android:layout_weight="1"
+                android:background="@color/azul"/>/>
+        <Button
+                android:id="@+id/botoncito9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="9"
+                android:layout_weight="1"
+                android:background="@color/azul"/>/>
+        <Button
+                android:id="@+id/botoncitodiv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="/"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"/>/>
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1">
+        <Button
+                android:id="@+id/botoncito4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4"
+                android:layout_weight="1"
+                android:background="@color/azul"/>/>
+        <Button
+                android:id="@+id/botoncito5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="5"
+                android:layout_weight="1"
+                android:background="@color/azul"/>/>
+        <Button
+                android:id="@+id/botoncito6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="6"
+                android:layout_weight="1"
+                android:background="@color/azul"/>/>
+        <Button
+                android:id="@+id/botoncitopor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="X"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"/>/>
+
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1">
+        <Button
+                android:id="@+id/botoncito1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:layout_weight="1"
+                android:background="@color/azul"/>/>
+        <Button
+                android:id="@+id/botoncito2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2"
+                android:layout_weight="1"
+                android:background="@color/azul"/>/>
+        <Button
+                android:id="@+id/botoncito3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3"
+                android:layout_weight="1"
+                android:background="@color/azul"/>/>
+        <Button
+                android:id="@+id/botoncitomenos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="-"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"/>/>
+
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1">
+        <Button
+                android:id="@+id/botoncitopunto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="."
+                android:layout_weight="1"
+                android:background="@color/azul"/>/>
+        <Button
+                android:id="@+id/botoncito0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:layout_weight="1"
+                android:background="@color/azul"/>/>
+        <Button
+                android:id="@+id/botoncitoigual"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="="
+                android:layout_weight="1"
+                android:background="@color/azul"/>/>
+        <Button
+                android:id="@+id/botoncitomas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="+"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"/>/>
+
+    </LinearLayout>
+</LinearLayout>
